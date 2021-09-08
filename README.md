@@ -5,4 +5,4 @@ La première version de ce widget a été financé par l'UMR 3495 <a href="http:
   
 Développé par <a href="https://github.com/Firas8">Firas Gabsi<a/> en partenairiat avec la plateforme <a href="https://www.mom.fr/plateformes-technologiques/web-semantique-et-thesauri">WST<a/>(Web Sémantique & Thésauri) de la <a href="https://www.mom.fr/">MOM<a/> 
 
-  
+widgetOT est distribué sous licence CeCILL_C, Licence libre de droit français compatible avec la licence GNU GPL.
