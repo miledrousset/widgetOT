@@ -152,7 +152,7 @@ $(box).find('ul').remove();
 $(box).append(ul);
 $.ajax({
    url:`${configurationData.sub_category_url}`,
-   data:{'theso':'th13','lang':'fr','id':fullElement},
+   data:{'theso':`${configurationData.theso}`,'lang':`${configurationData.lang}`,'id':fullElement},
    dataType: 'json',
    beforeSend: () => {
     $('.form-group.search-blc').addClass('loader');
@@ -662,7 +662,7 @@ function getSubCategory(fullElement)
 
 $.ajax({
    url:`${configurationData.sub_category_url}`,
-   data:{'theso':'th13','lang':'fr','id':fullElement.id},
+   data:{'theso':`${configurationData.theso}`,'lang':`${configurationData.lang}`,'id':fullElement.id},
    dataType: 'json',
    beforeSend: () => {
     $('.form-group.search-blc').addClass('loader');
